@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+
+  /* Main section */
+
+.logo{
+  font-size: 2rem;
+
+}
+
+.nav-list >li >a{
+  color: white !important;
+}
+
+@media (max-width:750px) {
+    .nav-list{
+        display: none;
+    }
+}
+
+#hero-images{
+    border-radius: 50%;
+    box-shadow: 0 0 10px #007000;
+}
+
+@media (max-width:1024px) {
+    .hero-container{
+        height: 88vh;
+    }
+    #hero-images{
+        height: 160px;
+    }
+    .dashes{
+        width: 80px;
+        margin: 0px 10px;
+    }
+    .hero-heading{
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width:870px) {
+    .hero-container{
+        height: 60vh;
+    }
+
+
+    #hero-images{
+        height: 130px;
+    }
+    .dashes{
+        width: 60px;
+        margin: 0px 8px;
+    }
+    .hero-heading{
+        font-size: 40px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:570px) {
+    #hero-images{
+        height: 80px;
+    }
+    .dashes{
+        width: 30px;
+    }
+    .hero-heading{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+/*   */
+
+

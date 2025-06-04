@@ -3,7 +3,7 @@ import image1 from "../assets/MainSecImages/img-1.png"
 import image2 from "../assets/MainSecImages/img-2.png"
 import image3 from "../assets/MainSecImages/img-3.png"
 import dashes from "../assets/MainSecImages/dash.png"
-import "../app.css"
+import "../App.css"
 const MainSection = () => {
   return (
     <div className="bg-[#00ae47] w-[100vw]">
